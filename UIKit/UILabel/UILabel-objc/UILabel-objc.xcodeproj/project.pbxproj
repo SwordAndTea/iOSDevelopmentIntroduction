@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC22F3A21BB7D6200949B24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC22F3921BB7D6200949B24 /* AppDelegate.m */; };
+		ECC22F3D21BB7D6200949B24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC22F3C21BB7D6200949B24 /* ViewController.m */; };
+		ECC22F4021BB7D6200949B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC22F3E21BB7D6200949B24 /* Main.storyboard */; };
+		ECC22F4221BB7D6300949B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC22F4121BB7D6300949B24 /* Assets.xcassets */; };
+		ECC22F4521BB7D6300949B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC22F4321BB7D6300949B24 /* LaunchScreen.storyboard */; };
+		ECC22F4821BB7D6300949B24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC22F4721BB7D6300949B24 /* main.m */; };
+		ECC22F5221BB7D6400949B24 /* UILabel_objcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC22F5121BB7D6400949B24 /* UILabel_objcTests.m */; };
+		ECC22F5D21BB7D6400949B24 /* UILabel_objcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC22F5C21BB7D6400949B24 /* UILabel_objcUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC22F4E21BB7D6400949B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC22F2D21BB7D6200949B24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC22F3421BB7D6200949B24;
+			remoteInfo = "UILabel-objc";
+		};
+		ECC22F5921BB7D6400949B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC22F2D21BB7D6200949B24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC22F3421BB7D6200949B24;
+			remoteInfo = "UILabel-objc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECC22F3521BB7D6200949B24 /* UILabel-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UILabel-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC22F3821BB7D6200949B24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECC22F3921BB7D6200949B24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECC22F3B21BB7D6200949B24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECC22F3C21BB7D6200949B24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECC22F3F21BB7D6200949B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC22F4121BB7D6300949B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC22F4421BB7D6300949B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECC22F4621BB7D6300949B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC22F4721BB7D6300949B24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECC22F4D21BB7D6400949B24 /* UILabel-objcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UILabel-objcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC22F5121BB7D6400949B24 /* UILabel_objcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabel_objcTests.m; sourceTree = "<group>"; };
+		ECC22F5321BB7D6400949B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC22F5821BB7D6400949B24 /* UILabel-objcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UILabel-objcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC22F5C21BB7D6400949B24 /* UILabel_objcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabel_objcUITests.m; sourceTree = "<group>"; };
+		ECC22F5E21BB7D6400949B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC22F3221BB7D6200949B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC22F4A21BB7D6400949B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC22F5521BB7D6400949B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC22F2C21BB7D6200949B24 = {
+			isa = PBXGroup;
+			children = (
+				ECC22F3721BB7D6200949B24 /* UILabel-objc */,
+				ECC22F5021BB7D6400949B24 /* UILabel-objcTests */,
+				ECC22F5B21BB7D6400949B24 /* UILabel-objcUITests */,
+				ECC22F3621BB7D6200949B24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC22F3621BB7D6200949B24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC22F3521BB7D6200949B24 /* UILabel-objc.app */,
+				ECC22F4D21BB7D6400949B24 /* UILabel-objcTests.xctest */,
+				ECC22F5821BB7D6400949B24 /* UILabel-objcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC22F3721BB7D6200949B24 /* UILabel-objc */ = {
+			isa = PBXGroup;
+			children = (
+				ECC22F3821BB7D6200949B24 /* AppDelegate.h */,
+				ECC22F3921BB7D6200949B24 /* AppDelegate.m */,
+				ECC22F3B21BB7D6200949B24 /* ViewController.h */,
+				ECC22F3C21BB7D6200949B24 /* ViewController.m */,
+				ECC22F3E21BB7D6200949B24 /* Main.storyboard */,
+				ECC22F4121BB7D6300949B24 /* Assets.xcassets */,
+				ECC22F4321BB7D6300949B24 /* LaunchScreen.storyboard */,
+				ECC22F4621BB7D6300949B24 /* Info.plist */,
+				ECC22F4721BB7D6300949B24 /* main.m */,
+			);
+			path = "UILabel-objc";
+			sourceTree = "<group>";
+		};
+		ECC22F5021BB7D6400949B24 /* UILabel-objcTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC22F5121BB7D6400949B24 /* UILabel_objcTests.m */,
+				ECC22F5321BB7D6400949B24 /* Info.plist */,
+			);
+			path = "UILabel-objcTests";
+			sourceTree = "<group>";
+		};
+		ECC22F5B21BB7D6400949B24 /* UILabel-objcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC22F5C21BB7D6400949B24 /* UILabel_objcUITests.m */,
+				ECC22F5E21BB7D6400949B24 /* Info.plist */,
+			);
+			path = "UILabel-objcUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC22F3421BB7D6200949B24 /* UILabel-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC22F6121BB7D6400949B24 /* Build configuration list for PBXNativeTarget "UILabel-objc" */;
+			buildPhases = (
+				ECC22F3121BB7D6200949B24 /* Sources */,
+				ECC22F3221BB7D6200949B24 /* Frameworks */,
+				ECC22F3321BB7D6200949B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UILabel-objc";
+			productName = "UILabel-objc";
+			productReference = ECC22F3521BB7D6200949B24 /* UILabel-objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC22F4C21BB7D6400949B24 /* UILabel-objcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC22F6421BB7D6400949B24 /* Build configuration list for PBXNativeTarget "UILabel-objcTests" */;
+			buildPhases = (
+				ECC22F4921BB7D6400949B24 /* Sources */,
+				ECC22F4A21BB7D6400949B24 /* Frameworks */,
+				ECC22F4B21BB7D6400949B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC22F4F21BB7D6400949B24 /* PBXTargetDependency */,
+			);
+			name = "UILabel-objcTests";
+			productName = "UILabel-objcTests";
+			productReference = ECC22F4D21BB7D6400949B24 /* UILabel-objcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECC22F5721BB7D6400949B24 /* UILabel-objcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC22F6721BB7D6400949B24 /* Build configuration list for PBXNativeTarget "UILabel-objcUITests" */;
+			buildPhases = (
+				ECC22F5421BB7D6400949B24 /* Sources */,
+				ECC22F5521BB7D6400949B24 /* Frameworks */,
+				ECC22F5621BB7D6400949B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC22F5A21BB7D6400949B24 /* PBXTargetDependency */,
+			);
+			name = "UILabel-objcUITests";
+			productName = "UILabel-objcUITests";
+			productReference = ECC22F5821BB7D6400949B24 /* UILabel-objcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC22F2D21BB7D6200949B24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = SwordAndTea;
+				TargetAttributes = {
+					ECC22F3421BB7D6200949B24 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					ECC22F4C21BB7D6400949B24 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ECC22F3421BB7D6200949B24;
+					};
+					ECC22F5721BB7D6400949B24 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ECC22F3421BB7D6200949B24;
+					};
+				};
+			};
+			buildConfigurationList = ECC22F3021BB7D6200949B24 /* Build configuration list for PBXProject "UILabel-objc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC22F2C21BB7D6200949B24;
+			productRefGroup = ECC22F3621BB7D6200949B24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC22F3421BB7D6200949B24 /* UILabel-objc */,
+				ECC22F4C21BB7D6400949B24 /* UILabel-objcTests */,
+				ECC22F5721BB7D6400949B24 /* UILabel-objcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC22F3321BB7D6200949B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC22F4521BB7D6300949B24 /* LaunchScreen.storyboard in Resources */,
+				ECC22F4221BB7D6300949B24 /* Assets.xcassets in Resources */,
+				ECC22F4021BB7D6200949B24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC22F4B21BB7D6400949B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC22F5621BB7D6400949B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC22F3121BB7D6200949B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC22F3D21BB7D6200949B24 /* ViewController.m in Sources */,
+				ECC22F4821BB7D6300949B24 /* main.m in Sources */,
+				ECC22F3A21BB7D6200949B24 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC22F4921BB7D6400949B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC22F5221BB7D6400949B24 /* UILabel_objcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC22F5421BB7D6400949B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC22F5D21BB7D6400949B24 /* UILabel_objcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC22F4F21BB7D6400949B24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC22F3421BB7D6200949B24 /* UILabel-objc */;
+			targetProxy = ECC22F4E21BB7D6400949B24 /* PBXContainerItemProxy */;
+		};
+		ECC22F5A21BB7D6400949B24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC22F3421BB7D6200949B24 /* UILabel-objc */;
+			targetProxy = ECC22F5921BB7D6400949B24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC22F3E21BB7D6200949B24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC22F3F21BB7D6200949B24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC22F4321BB7D6300949B24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC22F4421BB7D6300949B24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC22F5F21BB7D6400949B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECC22F6021BB7D6400949B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC22F6221BB7D6400949B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UILabel-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SwordAndTea.UILabel-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECC22F6321BB7D6400949B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UILabel-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SwordAndTea.UILabel-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECC22F6521BB7D6400949B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UILabel-objcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SwordAndTea.UILabel-objcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabel-objc.app/UILabel-objc";
+			};
+			name = Debug;
+		};
+		ECC22F6621BB7D6400949B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UILabel-objcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SwordAndTea.UILabel-objcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabel-objc.app/UILabel-objc";
+			};
+			name = Release;
+		};
+		ECC22F6821BB7D6400949B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UILabel-objcUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SwordAndTea.UILabel-objcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UILabel-objc";
+			};
+			name = Debug;
+		};
+		ECC22F6921BB7D6400949B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UILabel-objcUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SwordAndTea.UILabel-objcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UILabel-objc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC22F3021BB7D6200949B24 /* Build configuration list for PBXProject "UILabel-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC22F5F21BB7D6400949B24 /* Debug */,
+				ECC22F6021BB7D6400949B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC22F6121BB7D6400949B24 /* Build configuration list for PBXNativeTarget "UILabel-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC22F6221BB7D6400949B24 /* Debug */,
+				ECC22F6321BB7D6400949B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC22F6421BB7D6400949B24 /* Build configuration list for PBXNativeTarget "UILabel-objcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC22F6521BB7D6400949B24 /* Debug */,
+				ECC22F6621BB7D6400949B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC22F6721BB7D6400949B24 /* Build configuration list for PBXNativeTarget "UILabel-objcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC22F6821BB7D6400949B24 /* Debug */,
+				ECC22F6921BB7D6400949B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC22F2D21BB7D6200949B24 /* Project object */;
+}
